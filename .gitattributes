@@ -1,0 +1,5 @@
+# The engine binary must never be touched by line-ending conversion,
+# diffed as text, or counted as code.
+yt-dlp binary linguist-vendored -text -diff
+latest.txt text eol=lf
+*.md text eol=lf
